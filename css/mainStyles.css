@@ -101,17 +101,6 @@ body {
 	background-repeat:repeat-x;	
 }
 
-/* PARALLAX NAVIGATION */
-.fixedNavigation {
-	position: fixed;
-    top:65px;
-    right:0;	
-	width:200px;
-	height:200px;	
-	background-color:#FC0;
-	z-index:19;	
-}
-
 /* DOWNLOAD BUTTON */ 
 .downloadButton {
 	display:block;
