@@ -1,0 +1,335 @@
+@charset "utf-8";
+/*-------------------BASIC STRUCTURE----------------------*/
+
+body {
+	margin:0px;
+	padding:0px;
+	top:0px;
+	background-color:#666666;	
+}
+
+.contentWrapper {
+	width:960px;	
+
+}
+
+.websiteBackground{
+	width:100%;
+	height:100%;
+	min-height:500px;
+	background-image:url(../backgrounds/bg5.jpg);
+	background-attachment:fixed;
+	background-position:center 0px;
+	background-repeat:no-repeat;	
+	position:fixed;
+	margin:0px;
+	padding:0px;
+	top:0px;	
+	z-index:-5;
+}
+
+.centerWrapper {
+/*
+	background-image:url(../images/gradient-on-bg.png);
+	background-repeat:repeat-y;
+	width:960px;	
+	margin-top:49px;	
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:0px;
+	padding-left:114px;
+	padding-right:114px;	
+	position:relative;
+	bottom:-6px;		
+*/
+
+	background-image:url(../images/black_transparency.png);
+	background-repeat:repeat;
+	width:960px;	
+	margin-top:49px;	
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:0px;
+	padding-left:356px;
+	padding-right:355px;	
+	position:relative;
+	bottom:-6px;	
+	*/		
+}
+
+/* HEADER PART */
+.fixedHeader {
+	position: fixed;
+    top:0;
+    left:0;	
+	width:100%;
+	background-image:url(../images/header.png);
+	background-repeat:repeat-x;	
+	z-index:20;	
+}
+
+.headerContent {
+	margin-left:auto;
+	margin-right:auto;
+	padding-bottom:6px;
+	width:960px;	
+	height:55px;
+}
+
+.headerMenuWraper{
+	float:right;	
+}
+
+.slidesLiveLogo {
+	widows:300px;
+	position:relative;
+	top:13px;
+	float:left;
+}
+
+.slidesLiveLogo:hover {
+	position:relative;
+	top:14px;
+}
+
+/* FOOTER PART */
+.siteFooter {
+	z-index:25;	
+	width:100%;
+	height:55px;
+	background-image:url(../images/footer.png);
+	background-repeat:repeat-x;	
+}
+
+/* PARALLAX NAVIGATION */
+.fixedNavigation {
+	position: fixed;
+    top:65px;
+    right:0;	
+	width:200px;
+	height:200px;	
+	background-color:#FC0;
+	z-index:19;	
+}
+
+/* DOWNLOAD BUTTON */ 
+.downloadButton {
+	display:block;
+	width:330px;
+	height:60px;
+	margin-top:55px;
+	margin-bottom:5px;
+	background-image:url(../images/dwn-btn.png);
+	background-repeat:no-repeat;
+	border:none;
+	cursor:pointer;
+}
+
+.downloadButton:hover{
+	display:block;	
+	background-position:0 -60px;
+}
+
+/* 3STEPS PART */
+.threeStepsWrapper {
+	background-image:url(../images/sync.png);
+	background-position: 70px 0px;
+	background-repeat:no-repeat;
+	position:relative;
+	padding-right:250px;	
+	margin-top:0px;
+	width:960px;
+	height:978px;	
+}
+
+.stepOneWrapper {
+	float:left;
+	position:relative;
+<<<<<<< HEAD
+	top:190px;
+	padding-top:170px;
+	padding-bottom:180px;	
+	padding-left:120px;
+	padding-right:100px;
+	left:-120px;
+=======
+	top:360px;
+>>>>>>> Font changes
+	width:250px;
+	height:150px;
+	overflow:visible;	
+}
+
+<<<<<<< HEAD
+.stepOneWrapper:hover {
+	background-image:url(../images/step-hover.png);
+	background-repeat:no-repeat;
+=======
+.stepTwoWrapper {
+	float:left;	
+	position:relative;
+	left:100px;
+	top:410px;
+	width:250px;
+	height:300px;
+	overflow:hidden;	
+>>>>>>> Font changes
+}
+
+.stepThreeoWrapper {
+	float:left;	
+	position:relative;
+	left:240px;
+	top:220px;
+	width:250px;
+	height:150px;
+	overflow:hidden;	
+}
+
+.videoCon{
+	margin-left:100px;
+	width:640px;
+	height:480px;
+	background-color:#333333;
+}
+
+.threeStepsContainer {
+	width:900px;
+	height:300px;
+	background-color:#993300;	
+}
+
+.stepOneContainer {
+	width:438px;
+	height:438px;
+}
+
+.stepOneContainer:hover {
+	background-image:url(step-hover.png);
+}
+
+
+/*-------------------SPECIAL STUFF----------------------*/
+.slidesLiveBlue {
+	color:#027BF7 !important;
+}
+
+.slidesLiveBlue a{
+	color:#027BF7 !important;
+}
+
+.globalFont{
+	font-family:'Ropa Sans', sans-serif !important;
+}
+
+.bottomFree {
+	margin-bottom:0px; !important;
+	padding-bottom:0px; !important;
+}
+
+.topFree {
+	margin-top:0px; !important;
+	padding-top:0px; !important;
+}
+
+.center{
+	display: block;
+	text-align:center;
+    margin-left: auto; !important;
+    margin-right: auto;	!important;
+}
+/*-------------------GENERAL TEXTS----------------------*/
+.headerMenu {
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	font-size:15px;
+	color:#FFF;
+	position:relative;
+	top:19px;
+	text-decoration:none;
+}
+
+.headerMenu:hover{
+	top:20px;
+}
+
+.smallNote {
+	font-size:14px; !important;	
+	font-style:normal; !important;	
+}
+
+h1 {
+	font-size:80px;
+	color:#FFFFFF;
+	margin-top:40px;
+	text-shadow: 2px 2px #000000;	
+	line-height:80px;
+}
+
+h2 {
+	font-size:18px;
+	font-style:italic;
+	color:#FFFFFF;	
+}
+
+.logoBeta {
+	float:right;
+	font-family:'Ropa Sans', sans-serif;
+	font-weight:normal;
+	font-size:13px;		
+	position:relative;
+	top:-3px;
+	left: -2px;
+	color:#FFFFFF;
+	text-decoration:none;
+	line-height:16px;
+	text-align:center;
+}
+
+.downloadButtonText {
+	font-family:'Ropa Sans', sans-serif;
+	font-weight:normal;
+	font-size:25px;
+	padding-top:14px;		
+	color:#FFFFFF;
+	text-decoration:none;
+	text-align:center;
+	text-shadow: 2px 2px #0066CC;		
+}
+
+.downloadText {
+	font-family:'Ropa Sans', sans-serif;
+	font-weight:normal;
+	font-size:14px;
+	padding-top:5px;		
+	color:#838587;
+	text-decoration:none;
+	line-height:16px;
+	text-align:center;
+}
+
+.downloadText a{
+	color:#CCC;	
+	text-decoration:none;
+}
+	
+.downloadText a:hover{
+	color:#027BF7;	
+	text-decoration:underline;
+}
+
+
+/*-----CLEARFIX------------*/
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+.clearfix {
+	display: inline-block;
+}
+
