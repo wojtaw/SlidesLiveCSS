@@ -1,5 +1,5 @@
 // JavaScript Document
-window.setInterval(yourFunction3, 200);
+window.setInterval(dummyFce, 200);
 var currentSize = 10;
 
 function yourfunction() { 
@@ -9,8 +9,8 @@ function yourfunction() {
 }
 
 
-function yourFunction2() {
-	sendData(800);	
+function dummyFce() {
+	
 }
 
 function sendData(val){
