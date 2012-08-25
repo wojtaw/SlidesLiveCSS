@@ -442,6 +442,16 @@ body {
 	text-decoration:none;
 }
 
+.footerText {
+	font-family:'Ropa Sans', sans-serif;
+	font-weight:normal;
+	font-size:15px;
+	color:#999;
+	position:relative;
+	top:19px;
+	text-decoration:none;
+}
+
 .headerMenu:hover{
 	top:20px;
 }
