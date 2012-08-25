@@ -29,10 +29,13 @@ body {
 }
 
 .websiteBlurBackground {
+	position:relative;
 	padding-top:40px;
 	padding-bottom:40px;
+	bottom:-6px;
 	width:100%;		
 	background-image:url(../images/bg-blur-abotus.jpg);		
+	z-index:0;	
 }
 
 .firstBlockTop {
@@ -80,12 +83,11 @@ body {
 }
 
 /* FOOTER PART */
-.siteFooter {
-	z-index:25;	
+.siteFooter {	
 	width:100%;
 	height:55px;
 	background-image:url(../images/footer.png);
-	background-repeat:repeat-x;	
+	background-repeat:repeat-x;
 }
 
 .footerContent {
