@@ -166,8 +166,9 @@ body {
 }
 
 .featureColumn{
-	width:400px;
+	width:360px;
 	margin-left:80px;
+	margin-right:40px;
 	height:200px;
 }
 
@@ -218,7 +219,7 @@ body {
 .stepsHeadline {
 	font-family:'Ropa Sans', sans-serif;
 	font-weight:bold;
-	font-size:40px;		
+	font-size:35px;		
 	color:#000000;
 	text-align:center;
 }
@@ -234,7 +235,7 @@ body {
 .featureHeadline {
 	font-family:'Ropa Sans', sans-serif;
 	font-weight:bold;
-	font-size:40px;		
+	font-size:35px;		
 	color:#000000;
 	text-align:left;
 }
@@ -268,7 +269,8 @@ body {
 h1 {
 	font-size:80px;
 	color:#000000;
-	padding:0px;
+	padding-top:0px;
+	padding-bottom:60px;	
 	margin:0px;
 }
 
