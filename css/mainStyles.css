@@ -152,8 +152,17 @@ body {
 }
 
 .howVideoBox {
-	border:dashed;
+	-moz-border-radius: 15px;
+	border-radius: 15px;	
+	border-style:solid;
+	border-width:10px;
+	border-color:#666666;	
 	width:853px;	
+}
+
+/* LONG DESCRIPTION */
+.featureColumn{
+	width:480px;	
 }
 
 /*-------------------SPECIAL STUFF----------------------*/
