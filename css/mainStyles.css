@@ -196,11 +196,17 @@ body {
 
 .teamColumn{
 	float:left;
+	width:300px;
+	margin-right:25px;
+}
+
+.teamColumnLast{
+	margin-right:0px !important;	
 }
 
 .teamBox{
 	float:left;
-	margin:10px;
+	margin-bottom:25px;
 	background-color:#FFF;
 	width:300px;	
 }
