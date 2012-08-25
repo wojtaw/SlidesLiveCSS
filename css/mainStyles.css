@@ -21,15 +21,22 @@ body {
 	background-image:url(../images/bg-dark.png);
 }
 
-.firstBlockTop {
-	padding-top:100px !important;
-}
-
 .websiteLightBackground {
 	padding-top:40px;
 	padding-bottom:40px;
 	width:100%;		
 	background-image:url(../images/bg-light.png);		
+}
+
+.websiteBlurBackground {
+	padding-top:40px;
+	padding-bottom:40px;
+	width:100%;		
+	background-image:url(../images/bg-blur-abotus.jpg);		
+}
+
+.firstBlockTop {
+	padding-top:100px !important;
 }
 
 .blockCenterWrapper {
@@ -267,7 +274,7 @@ body {
 }
 
 h1 {
-	font-size:80px;
+	font-size:70px;
 	color:#000000;
 	padding-top:0px;
 	padding-bottom:60px;	
