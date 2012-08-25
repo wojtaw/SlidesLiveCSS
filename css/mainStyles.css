@@ -253,19 +253,19 @@ body {
 }
 
 /* TEAM BUTTONS */
-.contactUs {
+.generalButton {
 	display:block;
-	width:330px;
+	width:252px;
 	height:60px;
-	margin-top:55px;
-	margin-bottom:5px;
+	margin-top:10px;
+	margin-bottom:40px;
 	background-image:url(../images/btn-all.png);
 	background-repeat:no-repeat;
 	border:none;
 	cursor:pointer;
 }
 
-.contactUs:hover{
+.generalButton:hover{
 	display:block;	
 	background-position:0 -60px;
 }
