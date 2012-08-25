@@ -198,8 +198,7 @@ body {
 	float:left;
 	margin:10px;
 	background-color:#FFF;
-	width:300px;
-	height:350px;	
+	width:300px;	
 }
 
 .teamVojta{
@@ -252,6 +251,27 @@ body {
     margin-right: auto !important;
 }
 /*-------------------GENERAL TEXTS----------------------*/
+.teamHeadline {
+	font-family:Arial, sans-serif;
+	font-weight:bold;
+	font-size:20px;		
+	color:#333333;
+	padding-left:15px;
+	padding-bottom:5px;
+	padding-top:5px;
+	text-align:left;	
+}
+
+.teamBody {
+	font-family:Arial, sans-serif;
+	font-weight:normal;
+	font-size:14px;		
+	color:#000000;
+	padding-left:15px;	
+	text-align:left;	
+}
+
+
 .stepsHeadline {
 	font-family:'Ropa Sans', sans-serif;
 	font-weight:bold;
