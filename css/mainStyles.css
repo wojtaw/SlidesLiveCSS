@@ -170,7 +170,7 @@ h2 {
 	font-size:18px;
 	font-style:italic;
 	color:#000000;	
-	font-variant:normal;
+	font-weight:normal;
 }
 
 .logoBeta {
@@ -196,6 +196,10 @@ h2 {
 	text-decoration:none;
 	text-align:center;
 	text-shadow: 2px 2px #0066CC;		
+}
+
+.downloadButtonLink {
+	text-decoration:none;		
 }
 
 .downloadText {
