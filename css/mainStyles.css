@@ -88,7 +88,7 @@ body {
 	height:60px;
 	margin-top:55px;
 	margin-bottom:5px;
-	background-image:url(../images/btn-all.png);
+	background-image:url(../images/dwn-btn.png);
 	background-repeat:no-repeat;
 	border:none;
 	cursor:pointer;
@@ -170,6 +170,7 @@ h2 {
 	font-size:18px;
 	font-style:italic;
 	color:#000000;	
+	font-variant:normal;
 }
 
 .logoBeta {
@@ -202,14 +203,14 @@ h2 {
 	font-weight:normal;
 	font-size:14px;
 	padding-top:5px;		
-	color:#838587;
+	color:#666666;
 	text-decoration:none;
 	line-height:16px;
 	text-align:center;
 }
 
 .downloadText a{
-	color:#CCC;	
+	color:#666;	
 	text-decoration:none;
 }
 	
