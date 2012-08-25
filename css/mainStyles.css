@@ -14,11 +14,14 @@ body {
 }
 
 .websiteDarkBackground {
+	margin:0px;
+	padding:0px;
 	width:100%;	
 	background-image:url(../images/bg-dark.png);	
 }
 
 .websiteLightBackground {
+
 	width:100%;		
 	background-image:url(../images/bg-light.png);		
 }
@@ -141,16 +144,15 @@ body {
 
 h1 {
 	font-size:80px;
-	color:#FFFFFF;
-	margin-top:40px;
-	text-shadow: 2px 2px #000000;	
-	line-height:80px;
+	color:#000000;
+	padding:0px;
+	margin:0px;
 }
 
 h2 {
 	font-size:18px;
 	font-style:italic;
-	color:#FFFFFF;	
+	color:#000000;	
 }
 
 .logoBeta {
