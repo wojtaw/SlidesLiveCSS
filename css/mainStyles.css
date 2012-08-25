@@ -127,31 +127,33 @@ body {
 	height:300px;
 }
 
-
 .howStepOne{
 	float:left;
 	position:relative;
-	top:-150px;
-	left:50px;
-	background-color:#FF9900;
+	top:-70px;
+	left:20px;
 	width:250px;
-	height:250px;	
 }
 
 .howStepTwo{
 	float:left;	
-	position:relative;	
-	background-color:#FFFF00;
-	width:320px;
-	height:250px;	
+	position:relative;
+	top:-30px;
+	left:30px;		
+	width:320px;	
 }
 
 .howStepThree{
 	float:left;	
 	position:relative;	
-	background-color:#FF6600;
-	width:320px;
-	height:250px;	
+	top:-40px;
+	left:30px;		
+	width:320px;	
+}
+
+.howVideoBox {
+	border:dashed;
+	width:853px;	
 }
 
 /*-------------------SPECIAL STUFF----------------------*/
@@ -199,13 +201,13 @@ body {
 .stepsBody {
 	font-family:Arial, sans-serif;
 	font-weight:normal;
-	font-size:18px;		
+	font-size:16px;		
 	color:#000000;
 	text-align:center;	
 }
 
 .smallNote{
-	font-size:15px !important;	
+	font-size:11px !important;	
 }
 
 .headerMenu {
