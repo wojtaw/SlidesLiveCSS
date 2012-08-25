@@ -100,7 +100,10 @@ body {
 }
 
 /* FIRST BLOCK */
-.presentationButton {
+.presentationButton 
+{
+	position:relative;
+	left:-45px;
 	width:1050px;
 	height:407px;
 	background-image:url(../images/show-case-normal.png);
