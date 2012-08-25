@@ -188,6 +188,26 @@ body {
     margin-right: auto !important;
 }
 /*-------------------GENERAL TEXTS----------------------*/
+.stepsHeadline {
+	font-family:'Ropa Sans', sans-serif;
+	font-weight:bold;
+	font-size:40px;		
+	color:#000000;
+	text-align:center;
+}
+
+.stepsBody {
+	font-family:Arial, sans-serif;
+	font-weight:normal;
+	font-size:18px;		
+	color:#000000;
+	text-align:center;	
+}
+
+.smallNote{
+	font-size:15px !important;	
+}
+
 .headerMenu {
 	font-family:Arial, Helvetica, sans-serif;
 	font-weight:normal;
