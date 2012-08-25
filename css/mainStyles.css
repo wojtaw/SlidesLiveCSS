@@ -279,6 +279,9 @@ body {
 	height:350px;
 }
 
+.socialButtonGeneral {
+	
+}
 
 .socialButtonFacebook {
 	padding:0px;
@@ -288,8 +291,9 @@ body {
 	background-image:url(../images/icons.png);
 	background-position:0px 0px;
 	position:relative;
-	left:50px;
-	top:150px;
+	float:left;
+	left:205px;
+	top:45px;
 }
 
 .socialButtonFacebook:hover{
@@ -373,6 +377,7 @@ body {
     margin-left: auto !important;
     margin-right: auto !important;
 }
+
 /*-------------------GENERAL TEXTS----------------------*/
 .teamHeadline {
 	font-family:Arial, sans-serif;
