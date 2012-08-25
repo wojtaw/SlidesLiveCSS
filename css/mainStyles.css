@@ -99,6 +99,17 @@ body {
 	background-position:0 -60px;
 }
 
+/* FIRST BLOCK */
+.presentationButton {
+	width:1050px;
+	height:407px;
+	background-image:url(../images/show-case-normal.png);
+}
+
+.presentationButton:hover {
+	background-image:url(../images/show-case-hover.png);
+}
+
 /*-------------------SPECIAL STUFF----------------------*/
 .slidesLiveBlue {
 	color:#027BF7 !important;
