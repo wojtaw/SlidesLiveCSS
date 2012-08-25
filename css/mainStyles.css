@@ -116,15 +116,15 @@ body {
 /* HOW IT WORKS */
 
 .howItWorksWrapper {
-	background-color:#666666;
-	height:800px;
+
 }
 
 .howItWorksImage {
-	background-color:#093;
+	background-image:url(../images/how.png);
+	background-repeat:no-repeat;
+	background-position:right;
 	width:960px;
 	height:300px;
-	
 }
 
 
@@ -134,7 +134,7 @@ body {
 	top:-150px;
 	left:50px;
 	background-color:#FF9900;
-	width:320px;
+	width:250px;
 	height:250px;	
 }
 
