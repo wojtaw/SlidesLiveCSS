@@ -22,7 +22,7 @@ body {
 }
 
 .firstBlockTop {
-	margin-top:60px;	
+	padding-top:100px !important;
 }
 
 .websiteLightBackground {
