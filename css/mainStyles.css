@@ -113,7 +113,26 @@ body {
 	background-image:url(../images/show-case-hover.png);
 }
 
+/* HOW IT WORKS */
+
+.howItWorksWrapper {
+	width:900px;
+}
+
+.howItWorksImage {
+	
+}
+
+
+.howStepOne{
+	
+}
+
 /*-------------------SPECIAL STUFF----------------------*/
+.preloader{	
+	visibility:hidden;	
+	background-image:url(../images/show-case-hover.png);
+}
 .slidesLiveBlue {
 	color:#027BF7 !important;
 }
