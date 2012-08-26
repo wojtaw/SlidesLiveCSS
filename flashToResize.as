@@ -37,7 +37,8 @@
 		}		
 		
 		private function sliderChanged(evt:Event):void {
-			controls.statusTxt.appendText("Size: " + stage.stageWidth+" "+stage.stageHeight+" ")
+			controls.statusTxt.text = ("Size: Image:  " + videoImage.height+" YT ldr: "+loaderYT.height+" YT player: "+playerYT.height+" \n") + controls.statusTxt.text;
+			//controls.statusTxt.appendText("Size: Image:  " + videoImage.height+" YT: "+videoImage.playerYT+" \n")
 			trace(controls.slAlpha.value);
 			recalculatePositions();
 		}
