@@ -27,27 +27,28 @@
 		}
 		
 		private function introFunction():void{
-			controls.slAlpha.addEventListener(Event.CHANGE, sliderChanged);
+			slAlpha.addEventListener(Event.CHANGE, sliderChanged);
 			stage.align = StageAlign.TOP_LEFT;
 			stage.scaleMode = StageScaleMode.NO_SCALE;	
 			Security.allowDomain("C:/vojtaciml/SlidesLive/WEB/SlidesLiveCSS/");
 			var isAvailable:Boolean = ExternalInterface.available;
-			ExternalInterface.call("sendData", controls.slAlpha.value);	
+			ExternalInterface.call("sendData", "400");	
 			initYoutube();
 		}		
 		
 		private function sliderChanged(evt:Event):void {
 			controls.statusTxt.text = ("Size: Image:  " + videoImage.height+" YT ldr: "+loaderYT.height+" YT player: "+playerYT.height+" \n") + controls.statusTxt.text;
 			//controls.statusTxt.appendText("Size: Image:  " + videoImage.height+" YT: "+videoImage.playerYT+" \n")
-			trace(controls.slAlpha.value);
+			trace(slAlpha.value);
 			recalculatePositions();
 		}
 		
 		private function recalculatePositions():void {
 				var videoRatio:Number = (16/9);
 				var slideRatio:Number = (4/3);
-				videoImage.width = controls.slAlpha.value;
-				videoImage.height = videoImage.width / videoRatio;
+				loaderYT.width = slAlpha.value;
+				loaderYT.height += 1;
+				//loaderYT.height = loaderYT.width / videoRatio;
 				
 				slideImage.width = myStageWidth - 30 - videoImage.width;
 				slideImage.height = slideImage.width / slideRatio;
