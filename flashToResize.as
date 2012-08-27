@@ -11,13 +11,15 @@
 	import flash.system.Security;
 	import flash.system.SecurityDomain;
 	
+	import com.VimeoPlayer;
+	
 	public class flashToResize extends MovieClip{
 		private var myStageHeight:Number = stage.stageHeight;
 		private var myStageWidth:Number = stage.stageWidth;
 		
 		//Youtube
-		public var playerYT:Object;
-		public var loaderYT:Loader;
+		public var playerYT:Object = new Object();
+		public var loaderYT:Loader = new Loader();
 		private var videoParameter:String = "hdugASdZGiI";
 		private var videoHeight:int = 298;
 		private var videoWidth:int = 530;		
@@ -33,8 +35,14 @@
 			Security.allowDomain("C:/vojtaciml/SlidesLive/WEB/SlidesLiveCSS/");
 			var isAvailable:Boolean = ExternalInterface.available;
 			ExternalInterface.call("sendData", "400");	
-			initYoutube();
+			initVimeo();
+			//initYoutube();
 		}		
+		
+		private function initVimeo(){
+			var player : VimeoPlayer = new VimeoPlayer("ec8c9c9c9032b3e51ddbe03b35af4a14", 47911018, videoWidth, videoHeight);
+			videoImage.addChild(player);
+		}
 		
 		private function sliderChanged(evt:Event):void {
 			controls.statusTxt.text = ("Size: Image:  " + videoImage.height+" YT ldr: "+loaderYT.height+" YT player: "+playerYT.height+" \n") + controls.statusTxt.text;
@@ -46,9 +54,8 @@
 		private function recalculatePositions():void {
 				var videoRatio:Number = (16/9);
 				var slideRatio:Number = (4/3);
-				loaderYT.width = slAlpha.value;
-				loaderYT.height += 1;
-				//loaderYT.height = loaderYT.width / videoRatio;
+				videoImage.width = slAlpha.value;
+				videoImage.height = Math.ceil(videoImage.width / videoRatio);
 				
 				slideImage.width = myStageWidth - 30 - videoImage.width;
 				slideImage.height = slideImage.width / slideRatio;
