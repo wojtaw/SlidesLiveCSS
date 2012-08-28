@@ -123,11 +123,11 @@ body {
 	left:-45px;
 	width:1050px;
 	height:407px;
-	background-image:url(../images/show-case-normal.png);
+	background-image:url(../images/show-case-normal.jpg);
 }
 
 .presentationButton:hover {
-	background-image:url(../images/show-case-hover.png);
+	background-image:url(../images/show-case-hover.jpg);
 }
 
 /* HOW IT WORKS */
@@ -141,7 +141,7 @@ body {
 	background-repeat:no-repeat;
 	background-position:right;
 	width:960px;
-	height:300px;
+	height:346px;
 }
 
 .howStepOne{
@@ -342,7 +342,7 @@ body {
 /*-------------------SPECIAL STUFF----------------------*/
 .preloader{	
 	visibility:hidden;	
-	background-image:url(../images/show-case-hover.png);
+	background-image:url(../images/show-case-hover.jpg);
 }
 .slidesLiveBlue {
 	color:#027BF7 !important;
