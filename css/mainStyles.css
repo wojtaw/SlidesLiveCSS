@@ -241,11 +241,13 @@ body {
 	margin-bottom:25px;
 	background-color:#FFF;
 	width:300px;
-	border-radius: 4px;	
-	box-shadow: 0px 0px 10px 1px #333333;		
+	border-radius: 4px;		
+	box-shadow: 0px 0px 10px -2px #000000;		
 }
 
 .teamVojta{
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;	
 	background-image:url(../images/team.png);
 	background-repeat:no-repeat;
 	background-position:-17px -15px;
@@ -254,6 +256,8 @@ body {
 }
 
 .teamTerka{
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;		
 	background-image:url(../images/team.png);
 	background-repeat:no-repeat;
 	background-position:-344px -15px;
@@ -262,6 +266,8 @@ body {
 }
 
 .teamVojtaD	{
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;		
 	background-image:url(../images/team.png);
 	background-repeat:no-repeat;
 	background-position:-669px -16px;
@@ -270,6 +276,8 @@ body {
 }
 
 .teamPetr	{
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;		
 	background-image:url(../images/team.png);
 	background-repeat:no-repeat;
 	background-position:-17px -420px;
@@ -278,6 +286,8 @@ body {
 }
 
 .teamYou	{
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;		
 	background-image:url(../images/team.png);
 	background-repeat:no-repeat;
 	background-position:-344px -347px;
