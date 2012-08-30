@@ -361,6 +361,7 @@ body {
 }
 
 .socialButtonGoogle {
+	width:100px;	
 	background-position:-225px 0px;
 	left:520px;
 	top:-25px;
@@ -417,7 +418,7 @@ body {
 
 /*-------------------GENERAL TEXTS----------------------*/
 .teamHeadline {
-	font-family:Arial, sans-serif;
+	font-family:'Ropa Sans', sans-serif;
 	font-weight:bold;
 	font-size:20px;		
 	color:#333333;
@@ -428,13 +429,29 @@ body {
 }
 
 .teamBody {
-	font-family:Arial, sans-serif;
+	font-family:'Ropa Sans', sans-serif;
 	font-weight:normal;
-	font-size:14px;		
+	font-size:15px;		
+	color:#000000;
+	padding-left:15px;	
+	padding-right:15px;		
+	padding-bottom:15px;
+	text-align:left;	
+}
+
+.teamBody a {
+	font-family:'Ropa Sans', sans-serif;
+	font-weight:normal;
+	font-size:15px;		
 	color:#000000;
 	padding-left:15px;	
 	padding-bottom:15px;
-	text-align:left;	
+	text-align:left;
+	text-decoration:none;		
+}
+
+.teamBody a:hover {
+	text-decoration:underline;		
 }
 
 
