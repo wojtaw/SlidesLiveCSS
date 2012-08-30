@@ -18,3 +18,7 @@ function modifyDownloadAccordingOS(){
             }
 }
 
+function showEmbedPlayer(){
+	
+}
+
